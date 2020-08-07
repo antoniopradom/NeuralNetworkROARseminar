@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # here we will create a fake dataset to use for testing
 t = 1000  # we have 1000 examples
-dim = 2
+dim = 3
 x = np.random.rand(t, dim)  # we have 4 features per sample
 x_test = x[800:]
 # yFn = lambda xx: xx.dot(np.arange(dim)+1)  # y = sum(n*x)) --> this is a linear function
