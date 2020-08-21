@@ -19,7 +19,7 @@ x = np.zeros((t.size-predFuture - windowSize, windowSize))
 y = np.zeros(x.shape[0])
 for k in range(t.size - predFuture - windowSize):
     x[k] = f[k:k + windowSize]
-    y[k] = f[k+predFuture]
+    y[k] = f[k + predFuture]
 
 x = np.expand_dims(x, 2)
 
