@@ -1,0 +1,11 @@
+Food,Category,Price,Danielle Likes?
+Banana,Fruit,0.79,TRUE
+Strawberry,Fruit,2.49,nan
+Wine,Alcohol,13.99,FALSE
+Zucchini,Veggie,2.07,FALSE
+Sweet Potato,Starch,0.81,TRUE
+Potato,Starch,0.53,TRUE
+Brussel Sprouts,Veggie,3.86,TRUE
+Milk,Dairy,nan,FALSE
+Cheese,Dairy,4.83,TRUE
+Beer,Alcohol,11.97,TRUE
